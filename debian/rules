@@ -7,4 +7,4 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DKDE4_BUILD_TESTS=false -DECM_MKSPECS_INSTALL_DIR=/usr/share/qt5/mkspecs/modules/
 
 override_dh_strip:
-	dh_strip --dbg-package=libkf5archive5-dbg
+	dh_strip --dbg-package=libkf5archive4-dbg

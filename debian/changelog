@@ -1,6 +1,11 @@
 karchive (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream alpha release
+ 
+   [ Rohan Garg ]
+   * New upstream alpha release
+ 
+   [ Scarlett Clark ]
+   * Fix changed lib names in deb/*.install
+   * Fixed soname error renamed package to 4  
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:28:08 +0100
 

@@ -3,11 +3,11 @@ Upstream-Name: karchive
 Source: https://projects.kde.org/projects/frameworks/karchive
 
 Files: *
-Copyright: 2000-2005,2006,2007,2009 David Faure <faure@kde.org>,
-           2002 Holger Schroeder <holger-kde@holgis.net>,
-           2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>,
-           2003 Leo Savernik <l.savernik@aon.at>,
-           2007-2008 Per Øyvind Karlsen <peroyvind@mandriva.org>,
+Copyright: 2000-2005,2006,2007,2009 David Faure <faure@kde.org>
+           2002 Holger Schroeder <holger-kde@holgis.net>
+           2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+           2003 Leo Savernik <l.savernik@aon.at>
+           2007-2008 Per Øyvind Karlsen <peroyvind@mandriva.org>
            2011 Mario Bensi <mbensi@ipsquad.net>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
@@ -28,37 +28,37 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: autotests/kfiltertest.h,
-       autotests/kfiltertest.cpp,
-       src/karchive.cpp,
-       src/karchivedirectory.h,
-       src/kar.cpp,
-       src/kzip.cpp,
-       src/klimitediodevice.cpp,
-       src/kzip.h,
-       src/kfilterdev.cpp,
-       src/kcompressiondevice.cpp,
-       src/karchive.h,
-       src/karchive_p.h,
-       src/klimitediodevice_p.h,
-       src/k7zip.cpp,
-       src/kcompressiondevice.h,
-       src/kfilterdev.h,
-       src/ktar.cpp,
-       src/k7zip.h,
-       src/kzipfileentry.h,
-       src/karchiveentry.h,
-       src/kar.h,
-       src/ktar.h,
-       src/karchivefile.h,
-       tests/kziptest.cpp,
-       tests/ktartest.cpp,
-       tests/k7ziptest.cpp,
-Copyright: 2000-2005,2006,2007,2009 David Faure <faure@kde.org>,
-           2002 Holger Schroeder <holger-kde@holgis.net>,
-           2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>,
-           2003 Leo Savernik <l.savernik@aon.at>,
-           2007-2008 Per Øyvind Karlsen <peroyvind@mandriva.org>,
+Files: autotests/kfiltertest.h
+       autotests/kfiltertest.cpp
+       src/karchive.cpp
+       src/karchivedirectory.h
+       src/kar.cpp
+       src/kzip.cpp
+       src/klimitediodevice.cpp
+       src/kzip.h
+       src/kfilterdev.cpp
+       src/kcompressiondevice.cpp
+       src/karchive.h
+       src/karchive_p.h
+       src/klimitediodevice_p.h
+       src/k7zip.cpp
+       src/kcompressiondevice.h
+       src/kfilterdev.h
+       src/ktar.cpp
+       src/k7zip.h
+       src/kzipfileentry.h
+       src/karchiveentry.h
+       src/kar.h
+       src/ktar.h
+       src/karchivefile.h
+       tests/kziptest.cpp
+       tests/ktartest.cpp
+       tests/k7ziptest.cpp
+Copyright: 2000-2005,2006,2007,2009 David Faure <faure@kde.org>
+           2002 Holger Schroeder <holger-kde@holgis.net>
+           2002 Laurence Anderson <l.d.anderson@warwick.ac.uk>
+           2003 Leo Savernik <l.savernik@aon.at>
+           2007-2008 Per Øyvind Karlsen <peroyvind@mandriva.org>
            2011 Mario Bensi <mbensi@ipsquad.net>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
