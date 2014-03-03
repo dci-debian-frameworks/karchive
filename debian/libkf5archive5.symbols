@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Archive.so.4 libkf5archive4 #MINVER#
+libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev13deviceForFileERK7QStringS2_b@Base 4.96.0
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDev6deviceEP9QIODeviceRK7QStringb@Base 4.96.0
