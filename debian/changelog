@@ -1,14 +1,11 @@
-karchive (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
- 
-   [ Rohan Garg ]
-   * New upstream alpha release
- 
-   [ Scarlett Clark ]
-   * Fix changed lib names in deb/*.install
-   * Fixed soname error renamed package to 4  
+karchive (4.96.0-0ubuntu1) trusty; urgency=medium
 
-  [ Jonathan Riddell ]
+  [ Rohan Garg ]
   * New upstream alpha release
+
+  [ Scarlett Clark ]
+  * Fix changed lib names in deb/*.install
+  * Fixed soname error renamed package to 4
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:38 +0000
 
