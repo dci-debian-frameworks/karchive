@@ -1,8 +1,6 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5Archive.so.5 libkf5archive5 #MINVER#
- _ZN10KFilterDev13deviceForFileERK7QStringS2_b@Base 4.96.0
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
- _ZN10KFilterDev6deviceEP9QIODeviceRK7QStringb@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
  _ZN10KFilterDevC2ERK7QString@Base 4.96.0
  _ZN10KFilterDevD0Ev@Base 4.96.0
@@ -188,7 +186,6 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN8KArchive9setDeviceEP9QIODevice@Base 4.96.0
  _ZN8KArchive9writeDataEPKcx@Base 4.96.0
  _ZN8KArchive9writeFileERK7QStringRK10QByteArrayjS2_S2_RK9QDateTimeS8_S8_@Base 4.96.0
- _ZN8KArchive9writeFileERK7QStringS2_S2_PKcxjRK9QDateTimeS7_S7_@Base 4.96.0
  _ZN8KArchiveC1EP9QIODevice@Base 4.96.0
  _ZN8KArchiveC1ERK7QString@Base 4.96.0
  _ZN8KArchiveC2EP9QIODevice@Base 4.96.0
