@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
+               extra-cmake-modules (>= 0.0.14),
                libbz2-dev,
                liblzma-dev,
                pkg-kde-tools,
@@ -17,8 +17,7 @@ Homepage: https://projects.kde.org/projects/frameworks/karchive
 Package: libkf5archive-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5archive5 (= ${binary:Version}), ${misc:Depends},
- qtbase5-dev
+Depends: libkf5archive5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 addon providing access to numerous types of archives
  .
  This package is part of KDE Frameworks 5.
