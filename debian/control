@@ -17,7 +17,8 @@ Homepage: https://projects.kde.org/projects/frameworks/karchive
 Package: libkf5archive-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5archive5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5archive5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: Qt 5 addon providing access to numerous types of archives
  .
  This package is part of KDE Frameworks 5.
