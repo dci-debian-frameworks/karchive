@@ -4,53 +4,6 @@ karchive (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Initial stable upstream release
 
   [ Scarlett Clark ]
-  * Fix install file 
-  * Missed * 
+  * Initial packaging 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:08:00 +0200
-
-karchive (4.100.0-0ubuntu1) utopic; urgency=medium
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
-  [ Scarlett Clark ]
-  * Bump depends versions
-  * Bump depends versions
-
-  [ Harald Sitter ]
-  * Remove useless Pre-Depends fields used for multiarch compat in
-    releases older than trusty
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:33:38 +0100
-
-karchive (4.99.0-0ubuntu1) trusty; urgency=medium
-
-  * New upstream beta release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:54 +0100
-
-karchive (4.98.0-0ubuntu1) trusty; urgency=medium
-
-  * New upstream alpha release
-  * Rename library package for soname 5
-  * New upstream beta release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:22:47 +0000
-
-karchive (4.96.0-0ubuntu1) trusty; urgency=medium
-
-  [ Rohan Garg ]
-  * New upstream alpha release
-
-  [ Scarlett Clark ]
-  * Fix changed lib names in deb/*.install
-  * Fixed soname error renamed package to 4
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:38 +0000
-
-karchive (4.95.0-0ubuntu1) trusty; urgency=low
-
-  * Initial release
-
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 08 Jan 2014 11:35:49 +0000
