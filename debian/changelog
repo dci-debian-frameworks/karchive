@@ -5,5 +5,6 @@ karchive (5.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Initial packaging 
+  * Fix copyright to match upstream 
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 08 Jul 2014 15:53:00 +0200
