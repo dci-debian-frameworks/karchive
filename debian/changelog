@@ -3,6 +3,15 @@ karchive (5.0.0-1~) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Improve copyright
 
+  [ Maximiliano Curia ]
+  * Update Maintainers fields.
+  * Update VCS fields.
+  * Update debhelper build-depends versioning
+  * Update packages descriptions
+  * Set copyright source uri to the upstream git repository
+  * Update watch file
+  * Update copyright information
+
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Jul 2014 11:42:24 +0200
 
 karchive (5.0.0-0ubuntu1) utopic; urgency=medium
