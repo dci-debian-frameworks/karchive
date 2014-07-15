@@ -1,4 +1,4 @@
-karchive (5.0.0-1~) UNRELEASED; urgency=medium
+karchive (5.0.0-1) unstable; urgency=medium
 
   [ Scarlett Clark ]
   * Improve copyright
@@ -12,7 +12,7 @@ karchive (5.0.0-1~) UNRELEASED; urgency=medium
   * Update watch file
   * Update copyright information
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Jul 2014 11:42:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Jul 2014 12:38:51 +0200
 
 karchive (5.0.0-0ubuntu1) utopic; urgency=medium
 
