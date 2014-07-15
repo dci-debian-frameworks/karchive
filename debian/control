@@ -14,8 +14,8 @@ Build-Depends: cmake,
                zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/karchive
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/karchive
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/karchive
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/karchive.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/karchive.git
 
 Package: libkf5archive-dev
 Section: libdevel
