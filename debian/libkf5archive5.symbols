@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0+git20141006 i386
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -221,6 +221,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZNK14K7ZipFileEntry12createDeviceEv@Base 4.96.0
  _ZNK14K7ZipFileEntry4dataEv@Base 4.96.0
  _ZNK17KArchiveDirectory11isDirectoryEv@Base 4.96.0
+ _ZNK17KArchiveDirectory4fileERK7QString@Base 5.2.0+git20141006
  _ZNK17KArchiveDirectory5entryERK7QString@Base 4.96.0
  _ZNK17KArchiveDirectory6copyToERK7QStringb@Base 4.96.0
  _ZNK17KArchiveDirectory7entriesEv@Base 4.96.0
