@@ -9,7 +9,7 @@ Build-Depends: cmake,
                libbz2-dev,
                liblzma-dev,
                pkg-kde-tools (>= 0.15.16~),
-               qtbase5-dev,
+               qtbase5-dev (>= 5.2.0~),
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/karchive
