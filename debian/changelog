@@ -1,4 +1,4 @@
-karchive (5.6.0-1~) UNRELEASED; urgency=medium
+karchive (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions
@@ -8,7 +8,7 @@ karchive (5.6.0-1~) UNRELEASED; urgency=medium
   * Add basic autopkgtests support.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Jan 2015 12:26:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Jan 2015 16:08:21 +0100
 
 karchive (5.2.0-0ubuntu1) utopic; urgency=medium
 
