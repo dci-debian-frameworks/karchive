@@ -12,6 +12,7 @@ Build-Depends: cmake,
                qtbase5-dev (>= 5.2.0~),
                zlib1g-dev
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/karchive
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/karchive.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/karchive.git
