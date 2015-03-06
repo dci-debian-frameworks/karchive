@@ -9,7 +9,7 @@ Build-Depends: cmake (>= 2.8.12),
                libbz2-dev,
                liblzma-dev,
                pkg-kde-tools (>= 0.15.16~),
-               qtbase5-dev (>= 5.2.0~),
+               qtbase5-dev (>= 5.2.0),
                zlib1g-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
@@ -20,7 +20,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/karchive.git
 Package: libkf5archive-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5archive5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5archive5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for karchive
  Karchive is a Qt 5 addon providing access to numerous types of archives.
  .
