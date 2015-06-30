@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0 hppa
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
  _ZN10KFilterDevC2ERK7QString@Base 4.96.0
- _ZN10KFilterDevD0Ev@Base 4.96.0
- _ZN10KFilterDevD1Ev@Base 4.96.0
- _ZN10KFilterDevD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD2Ev@Base 4.96.0
  _ZN11KFilterBase12virtual_hookEiPv@Base 4.96.0
  _ZN11KFilterBase14setFilterFlagsENS_11FilterFlagsE@Base 4.96.0
  _ZN11KFilterBase5resetEv@Base 4.96.0
@@ -30,6 +30,9 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KArchiveEntryD0Ev@Base 4.96.0
  _ZN13KArchiveEntryD1Ev@Base 4.96.0
  _ZN13KArchiveEntryD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD0Ev@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD1Ev@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD2Ev@Base 5.3.0+git20141013
  _ZN13KZipFileEntry14setHeaderStartEx@Base 4.96.0
  _ZN13KZipFileEntry17setCompressedSizeEx@Base 4.96.0
  _ZN13KZipFileEntry8setCRC32Em@Base 4.96.0
@@ -40,9 +43,9 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KZipFileEntryD2Ev@Base 4.96.0
  _ZN14K7ZipFileEntryC1EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
  _ZN14K7ZipFileEntryC2EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
- _ZN14K7ZipFileEntryD0Ev@Base 4.96.0
- _ZN14K7ZipFileEntryD1Ev@Base 4.96.0
- _ZN14K7ZipFileEntryD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD2Ev@Base 4.96.0
  _ZN17KArchiveDirectory11removeEntryEP13KArchiveEntry@Base 4.96.0
  _ZN17KArchiveDirectory12virtual_hookEiPv@Base 4.96.0
  _ZN17KArchiveDirectory8addEntryEP13KArchiveEntry@Base 4.96.0
@@ -81,6 +84,19 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN3KArD0Ev@Base 4.96.0
  _ZN3KArD1Ev@Base 4.96.0
  _ZN3KArD2Ev@Base 4.96.0
+ _ZN4KRcc10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ _ZN4KRcc11KRccPrivate13createEntriesERK4QDirP17KArchiveDirectoryPS_@Base 5.3.0+git20141013
+ _ZN4KRcc11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.3.0+git20141013
+ _ZN4KRcc12closeArchiveEv@Base 5.3.0+git20141013
+ _ZN4KRcc12virtual_hookEiPv@Base 5.3.0+git20141013
+ _ZN4KRcc14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ _ZN4KRcc15doFinishWritingEx@Base 5.3.0+git20141013
+ _ZN4KRcc16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ _ZN4KRccC1ERK7QString@Base 5.3.0+git20141013
+ _ZN4KRccC2ERK7QString@Base 5.3.0+git20141013
+ _ZN4KRccD0Ev@Base 5.3.0+git20141013
+ _ZN4KRccD1Ev@Base 5.3.0+git20141013
+ _ZN4KRccD2Ev@Base 5.3.0+git20141013
  _ZN4KTar10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
  _ZN4KTar11KTarPrivate10fillBufferEPcPKcxRK9QDateTimecS3_S3_@Base 4.96.0
  _ZN4KTar11KTarPrivate10readHeaderEPcR7QStringS3_@Base 4.96.0
@@ -221,6 +237,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZNK14K7ZipFileEntry12createDeviceEv@Base 4.96.0
  _ZNK14K7ZipFileEntry4dataEv@Base 4.96.0
  _ZNK17KArchiveDirectory11isDirectoryEv@Base 4.96.0
+ _ZNK17KArchiveDirectory4fileERK7QString@Base 5.2.0+git20141006
  _ZNK17KArchiveDirectory5entryERK7QString@Base 4.96.0
  _ZNK17KArchiveDirectory6copyToERK7QStringb@Base 4.96.0
  _ZNK17KArchiveDirectory7entriesEv@Base 4.96.0
@@ -237,11 +254,13 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZTI11KFilterBase@Base 4.96.0
  _ZTI12KArchiveFile@Base 4.96.0
  _ZTI13KArchiveEntry@Base 4.96.0
+ _ZTI13KRccFileEntry@Base 5.3.0+git20141013
  _ZTI13KZipFileEntry@Base 4.96.0
  _ZTI14K7ZipFileEntry@Base 4.96.0
  _ZTI17KArchiveDirectory@Base 4.96.0
  _ZTI18KCompressionDevice@Base 4.96.0
  _ZTI3KAr@Base 4.96.0
+ _ZTI4KRcc@Base 5.3.0+git20141013
  _ZTI4KTar@Base 4.96.0
  _ZTI4KZip@Base 4.96.0
  _ZTI5K7Zip@Base 4.96.0
@@ -250,11 +269,13 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZTS11KFilterBase@Base 4.96.0
  _ZTS12KArchiveFile@Base 4.96.0
  _ZTS13KArchiveEntry@Base 4.96.0
+ _ZTS13KRccFileEntry@Base 5.3.0+git20141013
  _ZTS13KZipFileEntry@Base 4.96.0
  _ZTS14K7ZipFileEntry@Base 4.96.0
  _ZTS17KArchiveDirectory@Base 4.96.0
  _ZTS18KCompressionDevice@Base 4.96.0
  _ZTS3KAr@Base 4.96.0
+ _ZTS4KRcc@Base 5.3.0+git20141013
  _ZTS4KTar@Base 4.96.0
  _ZTS4KZip@Base 4.96.0
  _ZTS5K7Zip@Base 4.96.0
@@ -263,11 +284,13 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZTV11KFilterBase@Base 4.96.0
  _ZTV12KArchiveFile@Base 4.96.0
  _ZTV13KArchiveEntry@Base 4.96.0
+ _ZTV13KRccFileEntry@Base 5.3.0+git20141013
  _ZTV13KZipFileEntry@Base 4.96.0
  _ZTV14K7ZipFileEntry@Base 4.96.0
  _ZTV17KArchiveDirectory@Base 4.96.0
  _ZTV18KCompressionDevice@Base 4.96.0
  _ZTV3KAr@Base 4.96.0
+ _ZTV4KRcc@Base 5.3.0+git20141013
  _ZTV4KTar@Base 4.96.0
  _ZTV4KZip@Base 4.96.0
  _ZTV5K7Zip@Base 4.96.0

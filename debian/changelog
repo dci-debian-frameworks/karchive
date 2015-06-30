@@ -1,3 +1,84 @@
+karchive (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 18:59:43 +0200
+
+karchive (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:38 +0200
+
+karchive (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:17:34 +0200
+
+karchive (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 22:27:10 +0100
+
+karchive (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:29:21 +0100
+
+karchive (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 Feb 2015 23:31:44 +0100
+
+karchive (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:00:04 +0100
+
+karchive (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release (5.6.0).
+  * Bump build dependencies to build against the experimental versions
+  * Bump Standards-Version to 3.9.6, no changes needed
+  * Bump qtbase5-dev build dep version to follow the cmake check.
+  * Be a bit more specific for the KArchive headers.
+  * Add basic autopkgtests support.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Jan 2015 16:08:21 +0100
+
+karchive (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 20:17:18 +0100
+
+karchive (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:10:13 +0100
+
+karchive (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:37:25 +0100
+
+karchive (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:33:32 +0100
+
 karchive (5.2.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
