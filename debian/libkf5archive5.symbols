@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 hppa
+# SymbolsHelper-Confirmed: 5.11.0 kfreebsd-amd64 kfreebsd-i386
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -70,13 +70,16 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN18KCompressionDeviceD0Ev@Base 4.96.0
  _ZN18KCompressionDeviceD1Ev@Base 4.96.0
  _ZN18KCompressionDeviceD2Ev@Base 4.96.0
- _ZN3KAr10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN3KAr10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN3KAr10doWriteDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN3KAr11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN3KAr12closeArchiveEv@Base 4.96.0
  _ZN3KAr12virtual_hookEiPv@Base 4.96.0
- _ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN3KAr14doWriteSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN3KAr15doFinishWritingEx@Base 4.96.0
- _ZN3KAr16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN3KAr16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN3KAr16doPrepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN3KArC1EP9QIODevice@Base 4.96.0
  _ZN3KArC1ERK7QString@Base 4.96.0
  _ZN3KArC2EP9QIODevice@Base 4.96.0
@@ -84,20 +87,24 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN3KArD0Ev@Base 4.96.0
  _ZN3KArD1Ev@Base 4.96.0
  _ZN3KArD2Ev@Base 4.96.0
- _ZN4KRcc10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KRcc10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KRcc10doWriteDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KRcc11KRccPrivate13createEntriesERK4QDirP17KArchiveDirectoryPS_@Base 5.3.0+git20141013
  _ZN4KRcc11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.3.0+git20141013
  _ZN4KRcc12closeArchiveEv@Base 5.3.0+git20141013
  _ZN4KRcc12virtual_hookEiPv@Base 5.3.0+git20141013
- _ZN4KRcc14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KRcc14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KRcc14doWriteSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KRcc15doFinishWritingEx@Base 5.3.0+git20141013
- _ZN4KRcc16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KRcc16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 5.3.0+git20141013
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KRcc16doPrepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KRccC1ERK7QString@Base 5.3.0+git20141013
  _ZN4KRccC2ERK7QString@Base 5.3.0+git20141013
  _ZN4KRccD0Ev@Base 5.3.0+git20141013
  _ZN4KRccD1Ev@Base 5.3.0+git20141013
  _ZN4KRccD2Ev@Base 5.3.0+git20141013
- _ZN4KTar10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KTar10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KTar10doWriteDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KTar11KTarPrivate10fillBufferEPcPKcxRK9QDateTimecS3_S3_@Base 4.96.0
  _ZN4KTar11KTarPrivate10readHeaderEPcR7QStringS3_@Base 4.96.0
  _ZN4KTar11KTarPrivate12fillTempFileERK7QString@Base 4.96.0
@@ -109,10 +116,12 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN4KTar12closeArchiveEv@Base 4.96.0
  _ZN4KTar12createDeviceE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN4KTar12virtual_hookEiPv@Base 4.96.0
- _ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KTar14doWriteSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KTar15doFinishWritingEx@Base 4.96.0
  _ZN4KTar15setOrigFileNameERK10QByteArray@Base 4.96.0
- _ZN4KTar16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KTar16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KTar16doPrepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KTarC1EP9QIODevice@Base 4.96.0
  _ZN4KTarC1ERK7QStringS2_@Base 4.96.0
  _ZN4KTarC2EP9QIODevice@Base 4.96.0
@@ -120,15 +129,18 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN4KTarD0Ev@Base 4.96.0
  _ZN4KTarD1Ev@Base 4.96.0
  _ZN4KTarD2Ev@Base 4.96.0
- _ZN4KZip10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KZip10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KZip10doWriteDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KZip11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN4KZip12closeArchiveEv@Base 4.96.0
  _ZN4KZip12virtual_hookEiPv@Base 4.96.0
  _ZN4KZip13setExtraFieldENS_10ExtraFieldE@Base 4.96.0
- _ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KZip14doWriteSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KZip14setCompressionENS_11CompressionE@Base 4.96.0
  _ZN4KZip15doFinishWritingEx@Base 4.96.0
- _ZN4KZip16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN4KZip16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN4KZip16doPrepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN4KZip9writeDataEPKcx@Base 4.96.0
  _ZN4KZipC1EP9QIODevice@Base 4.96.0
  _ZN4KZipC1ERK7QString@Base 4.96.0
@@ -137,7 +149,8 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN4KZipD0Ev@Base 4.96.0
  _ZN4KZipD1Ev@Base 4.96.0
  _ZN4KZipD2Ev@Base 4.96.0
- _ZN5K7Zip10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN5K7Zip10doWriteDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN5K7Zip10doWriteDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN5K7Zip11openArchiveE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate10folderItemEv@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate10readNumberEv@Base 4.96.0
@@ -175,9 +188,11 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN5K7Zip12K7ZipPrivate9writeByteEh@Base 4.96.0
  _ZN5K7Zip12closeArchiveEv@Base 4.96.0
  _ZN5K7Zip12virtual_hookEiPv@Base 4.96.0
- _ZN5K7Zip14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN5K7Zip14doWriteSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN5K7Zip14doWriteSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN5K7Zip15doFinishWritingEx@Base 4.96.0
- _ZN5K7Zip16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN5K7Zip16doPrepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN5K7Zip16doPrepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN5K7Zip9writeDataEPKcx@Base 4.96.0
  _ZN5K7ZipC1EP9QIODevice@Base 4.96.0
  _ZN5K7ZipC1ERK7QString@Base 4.96.0
@@ -191,17 +206,21 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN8KArchive12createDeviceE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN8KArchive12findOrCreateERK7QString@Base 4.96.0
  _ZN8KArchive12virtual_hookEiPv@Base 4.96.0
- _ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN8KArchive12writeSymLinkERK7QStringS2_S2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN8KArchive13finishWritingEx@Base 4.96.0
- _ZN8KArchive14prepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN8KArchive17addLocalDirectoryERK7QStringS2_@Base 4.96.0
  _ZN8KArchive4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN8KArchive5closeEv@Base 4.96.0
  _ZN8KArchive7rootDirEv@Base 4.96.0
- _ZN8KArchive8writeDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN8KArchive8writeDirERK7QStringS2_S2_jRK9QDateTimeS5_S5_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN8KArchive8writeDirERK7QStringS2_S2_tRK9QDateTimeS5_S5_@Base 5.11.0
  _ZN8KArchive9setDeviceEP9QIODevice@Base 4.96.0
  _ZN8KArchive9writeDataEPKcx@Base 4.96.0
- _ZN8KArchive9writeFileERK7QStringRK10QByteArrayjS2_S2_RK9QDateTimeS8_S8_@Base 4.96.0
+ (optional=gccinternal|arch=!kfreebsd-any)_ZN8KArchive9writeFileERK7QStringRK10QByteArrayjS2_S2_RK9QDateTimeS8_S8_@Base 4.96.0
+ (optional=gccinternal|arch=kfreebsd-any)_ZN8KArchive9writeFileERK7QStringRK10QByteArraytS2_S2_RK9QDateTimeS8_S8_@Base 5.11.0
  _ZN8KArchiveC1EP9QIODevice@Base 4.96.0
  _ZN8KArchiveC1ERK7QString@Base 4.96.0
  _ZN8KArchiveC2EP9QIODevice@Base 4.96.0
