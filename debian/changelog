@@ -1,9 +1,9 @@
-karchive (5.13.0-1~) UNRELEASED; urgency=medium
+karchive (5.13.0-1) unstable; urgency=medium
 
   * New upstream release (5.13.0).
   * Update symbols files from buildds logs (5.12.0-1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 15:23:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 18:36:01 +0200
 
 karchive (5.12.0-1) unstable; urgency=medium
 
