@@ -1,11 +1,8 @@
-# SymbolsHelper-Confirmed: 5.9.0 hppa
+# SymbolsHelper-Confirmed: 5.14.0+git20150917.1301 amd64 i386
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
  _ZN10KFilterDevC2ERK7QString@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD0Ev@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD1Ev@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN10KFilterDevD2Ev@Base 4.96.0
  _ZN11KFilterBase12virtual_hookEiPv@Base 4.96.0
  _ZN11KFilterBase14setFilterFlagsENS_11FilterFlagsE@Base 4.96.0
  _ZN11KFilterBase5resetEv@Base 4.96.0
@@ -30,9 +27,6 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KArchiveEntryD0Ev@Base 4.96.0
  _ZN13KArchiveEntryD1Ev@Base 4.96.0
  _ZN13KArchiveEntryD2Ev@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD0Ev@Base 5.3.0+git20141013
- (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD1Ev@Base 5.3.0+git20141013
- (optional=gccinternal|arch=!hppa)_ZN13KRccFileEntryD2Ev@Base 5.3.0+git20141013
  _ZN13KZipFileEntry14setHeaderStartEx@Base 4.96.0
  _ZN13KZipFileEntry17setCompressedSizeEx@Base 4.96.0
  _ZN13KZipFileEntry8setCRC32Em@Base 4.96.0
@@ -43,9 +37,6 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KZipFileEntryD2Ev@Base 4.96.0
  _ZN14K7ZipFileEntryC1EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
  _ZN14K7ZipFileEntryC2EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD0Ev@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD1Ev@Base 4.96.0
- (optional=gccinternal|arch=!hppa)_ZN14K7ZipFileEntryD2Ev@Base 4.96.0
  _ZN17KArchiveDirectory11removeEntryEP13KArchiveEntry@Base 4.96.0
  _ZN17KArchiveDirectory12virtual_hookEiPv@Base 4.96.0
  _ZN17KArchiveDirectory8addEntryEP13KArchiveEntry@Base 4.96.0
