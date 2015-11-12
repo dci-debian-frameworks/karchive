@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.0+git20151007.0029 amd64 i386
+# SymbolsHelper-Confirmed: 5.16.0 amd64
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -37,6 +37,9 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KZipFileEntryD2Ev@Base 4.96.0
  _ZN14K7ZipFileEntryC1EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
  _ZN14K7ZipFileEntryC2EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
+ _ZN14K7ZipFileEntryD0Ev@Base 5.16.0
+ _ZN14K7ZipFileEntryD1Ev@Base 5.16.0
+ _ZN14K7ZipFileEntryD2Ev@Base 5.16.0
  _ZN17KArchiveDirectory11removeEntryEP13KArchiveEntry@Base 4.96.0
  _ZN17KArchiveDirectory12virtual_hookEiPv@Base 4.96.0
  _ZN17KArchiveDirectory8addEntryEP13KArchiveEntry@Base 4.96.0
@@ -150,7 +153,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN5K7Zip12K7ZipPrivate15readBoolVector2EiR7QVectorIbE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15readHashDigestsEiR7QVectorIbERS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15writeBoolVectorERK7QVectorIbE@Base 4.96.0
- _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoER7QVectorIP6FolderE@Base 4.96.0
+ _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoERK7QVectorIP6FolderE@Base 5.16.0
  _ZN5K7Zip12K7ZipPrivate16writeHashDigestsERK7QVectorIbERKS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate16writeStartHeaderEyjy@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate18readSubStreamsInfoEv@Base 4.96.0
