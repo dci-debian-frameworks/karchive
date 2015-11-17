@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 hppa
+# SymbolsHelper-Confirmed: 5.16.0 amd64
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -172,14 +172,14 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN5K7Zip12K7ZipPrivate15readBoolVector2EiR7QVectorIbE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15readHashDigestsEiR7QVectorIbERS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15writeBoolVectorERK7QVectorIbE@Base 4.96.0
- _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoER7QVectorIP6FolderE@Base 4.96.0
+ _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoERK7QVectorIP6FolderE@Base 5.16.0
  _ZN5K7Zip12K7ZipPrivate16writeHashDigestsERK7QVectorIbERKS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate16writeStartHeaderEyjy@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate18readSubStreamsInfoEv@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate19readMainStreamsInfoEv@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate19readUInt64DefVectorEiR7QVectorIyERS1_IbE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate19writeSubStreamsInfoERK7QVectorIyERKS1_IbERKS1_IjE@Base 4.96.0
- _ZN5K7Zip12K7ZipPrivate20writeUInt64DefVectorERK7QVectorIyES1_IbEi@Base 4.96.0
+ _ZN5K7Zip12K7ZipPrivate20writeUInt64DefVectorERK7QVectorIyERKS1_IbEi@Base 5.16.0
  _ZN5K7Zip12K7ZipPrivate22writeAlignedBoolHeaderERK7QVectorIbEiij@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate23createItemsFromEntitiesEPK17KArchiveDirectoryRK7QStringR10QByteArray@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate26readAndDecodePackedStreamsEb@Base 4.96.0
