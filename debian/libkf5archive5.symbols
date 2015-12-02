@@ -30,7 +30,6 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KArchiveEntryD0Ev@Base 4.96.0
  _ZN13KArchiveEntryD1Ev@Base 4.96.0
  _ZN13KArchiveEntryD2Ev@Base 4.96.0
- (optional=gccinternal|arch=)_ZN13KRccFileEntryD0Ev@Base 5.3.0+git20141013
  (optional=gccinternal|arch=)_ZN13KRccFileEntryD1Ev@Base 5.3.0+git20141013
  (optional=gccinternal|arch=)_ZN13KRccFileEntryD2Ev@Base 5.3.0+git20141013
  _ZN13KZipFileEntry14setHeaderStartEx@Base 4.96.0
@@ -172,7 +171,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN5K7Zip12K7ZipPrivate15readBoolVector2EiR7QVectorIbE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15readHashDigestsEiR7QVectorIbERS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate15writeBoolVectorERK7QVectorIbE@Base 4.96.0
- _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoERK7QVectorIP6FolderE@Base 5.16.0
+ _ZN5K7Zip12K7ZipPrivate15writeUnpackInfoERK7QVectorIP6FolderE@Base 5.15.0
  _ZN5K7Zip12K7ZipPrivate16writeHashDigestsERK7QVectorIbERKS1_IjE@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate16writeStartHeaderEyjy@Base 4.96.0
  _ZN5K7Zip12K7ZipPrivate18readSubStreamsInfoEv@Base 4.96.0
