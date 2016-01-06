@@ -1,12 +1,16 @@
-karchive (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+karchive (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge. No remaining changes. 
   * Fix debian merge. 
   * Disable tests, only to move forward with merges.
     This absolutely must be fixed before going to archive.
   * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:12:16 +0000
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:55:42 +0100
 
 karchive (5.16.0-1) unstable; urgency=medium
 
