@@ -1,13 +1,14 @@
-karchive (5.20.0-1~1.gbpfddfc5) UNRELEASED; urgency=medium
+karchive (5.20.0-1~2.gbp3c6867) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fddfc5f07c4c23e84c94a347364f536766731859 **
+  ** SNAPSHOT build @3c6867c7e48b1afdb12d25f0614cb69ef71d408f **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 23:54:45 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 25 Mar 2016 12:13:11 +0100
 
 karchive (5.19.0-1) experimental; urgency=medium
 
