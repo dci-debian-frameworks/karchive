@@ -1,6 +1,6 @@
-karchive (5.20.0-1~4.gbp23d48a) UNRELEASED; urgency=medium
+karchive (5.20.0-1~5.gbpd8dd23) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @23d48afc71c46444e8f9883a06481ac7a025c0d0 **
+  ** SNAPSHOT build @d8dd232e3086e72e9db8f4a29612de5431a8249f **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -9,8 +9,9 @@ karchive (5.20.0-1~4.gbp23d48a) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 01:15:07 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 07:11:19 +0200
 
 karchive (5.19.0-1) experimental; urgency=medium
 
