@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.20.0 amd64 armhf i386
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
