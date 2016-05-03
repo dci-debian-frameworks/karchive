@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
                libbz2-dev,
                liblzma-dev,
                pkg-kde-tools (>= 0.15.16~),
@@ -13,8 +13,8 @@ Build-Depends: cmake (>= 2.8.12),
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/karchive
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/karchive.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/karchive.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/karchive.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/karchive.git
 
 Package: libkf5archive-dev
 Section: libdevel
@@ -47,22 +47,3 @@ Description: Qt 5 addon providing access to numerous types of archives
  GZip format, via a subclass of QIODevice.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5archive5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5archive5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for karchive
- Karchive is a Qt 5 addon providing access to numerous types of archives.
- .
- KArchive provides classes for easy reading, creation and manipulation of
- "archive" formats like ZIP and TAR.
- .
- It also provides transparent compression and decompression of data, like the
- GZip format, via a subclass of QIODevice.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the debug symbols.
