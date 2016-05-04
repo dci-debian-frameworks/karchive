@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.21.0 amd64 armhf i386
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
