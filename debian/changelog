@@ -3,6 +3,7 @@ karchive (5.21.0-2~1.gbp92aaf4) UNRELEASED; urgency=medium
   ** SNAPSHOT build @92aaf41d513447acfdb990c69a016bdda97432a3 **
 
   * Update symbols files from buildds logs (5.21.0-1).
+  * Update symbols files.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 05 May 2016 16:04:23 +0200
 
