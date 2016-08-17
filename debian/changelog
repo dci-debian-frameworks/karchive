@@ -1,10 +1,16 @@
-karchive (5.25.0-1~1.gbp8e0372) UNRELEASED; urgency=medium
+karchive (5.25.0-1~2.gbp748cb1) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @748cb1b05ad37c4666f3d4672532f37b3d3f56a2 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @8e037242cf1f6b63f7cadb6cbe5ee988385c619c **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 19:04:25 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:04:26 +0200
 
 karchive (5.24.0-1) unstable; urgency=medium
 
