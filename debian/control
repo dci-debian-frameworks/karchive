@@ -34,6 +34,11 @@ Description: development files for karchive
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
+Breaks: kdoctools-dev (<< 5.25),
+        libkf5doctools-dev (<< 5.25),
+        libkf5emoticons-dev (<< 5.25),
+        libkf5khtml-dev (<< 5.25),
+        libkf5newstuff-dev (<< 5.25)
 
 Package: libkf5archive5
 Architecture: any
@@ -47,3 +52,16 @@ Description: Qt 5 addon providing access to numerous types of archives
  GZip format, via a subclass of QIODevice.
  .
  This package is part of KDE Frameworks 5.
+Breaks: kdoctools5 (<< 5.25),
+        kimageformat-plugins (<< 5.25),
+        kio (<< 5.25),
+        kpackagetool5 (<< 5.25),
+        libkf5emoticons5 (<< 5.25),
+        libkf5filemetadata-bin (<< 5.25),
+        libkf5iconthemes5 (<< 5.25),
+        libkf5khtml-bin (<< 5.25),
+        libkf5khtml5 (<< 5.25),
+        libkf5newstuff5 (<< 5.25),
+        libkf5package5 (<< 5.25),
+        libkf5plasma5 (<< 5.25),
+        libkf5texteditor5 (<< 5.25)
