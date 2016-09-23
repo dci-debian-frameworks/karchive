@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.22.0 alpha arm64 armel hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -42,9 +42,9 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN13KZipFileEntryD2Ev@Base 4.96.0
  _ZN14K7ZipFileEntryC1EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
  _ZN14K7ZipFileEntryC2EP5K7ZipRK7QStringiRK9QDateTimeS4_S4_S4_xxRK10QByteArray@Base 4.96.0
- (optional=gccinternal|arch=)_ZN14K7ZipFileEntryD0Ev@Base 4.96.0
- (optional=gccinternal|arch=)_ZN14K7ZipFileEntryD1Ev@Base 4.96.0
- (optional=gccinternal|arch=)_ZN14K7ZipFileEntryD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN14K7ZipFileEntryD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN14K7ZipFileEntryD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN14K7ZipFileEntryD2Ev@Base 4.96.0
  _ZN17KArchiveDirectory11removeEntryEP13KArchiveEntry@Base 4.96.0
  _ZN17KArchiveDirectory12virtual_hookEiPv@Base 4.96.0
  _ZN17KArchiveDirectory8addEntryEP13KArchiveEntry@Base 4.96.0
