@@ -1,10 +1,12 @@
-karchive (5.26.0-1~1.gbpc71cce) UNRELEASED; urgency=medium
+karchive (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c71cce86cc6bf0a8c45e87288d4a07acce24a375 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:04:46 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:55:32 +0200
 
 karchive (5.25.0-1) unstable; urgency=medium
 
