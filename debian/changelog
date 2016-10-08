@@ -1,3 +1,11 @@
+karchive (5.27.0-1~1.gbp55fc4e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @55fc4ee526301dd893a43cf85c9a5669a2828369 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 19:04:36 +0200
+
 karchive (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
