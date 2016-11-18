@@ -1,10 +1,13 @@
-karchive (5.28.0-1~1.gbp0c3df3) UNRELEASED; urgency=medium
+karchive (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0c3df3bc4e50f2d69ffa6a0008ea5d96c35f20b3 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:34:03 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:00:41 +0100
 
 karchive (5.27.0-1) unstable; urgency=medium
 
