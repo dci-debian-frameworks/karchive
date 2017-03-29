@@ -1,0 +1,78 @@
+From: Albert Astals Cid <aacid@kde.org>
+Date: Sat, 4 Feb 2017 17:02:34 +0100
+Subject: Fix KCompressionDevice to work with Qt >= 5.7
+
+Don't use QIODevice:pos to track our pos, doesn't do what we want it to do.
+Call QIODevice::seek at the beginning as documentation says has to be done.
+
+Differential Revision: 4422
+---
+ src/kcompressiondevice.cpp | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+
+diff --git a/src/kcompressiondevice.cpp b/src/kcompressiondevice.cpp
+index de22bf8..04466a6 100644
+--- a/src/kcompressiondevice.cpp
++++ b/src/kcompressiondevice.cpp
+@@ -48,6 +48,7 @@ public:
+         , bOpenedUnderlyingDevice(false)
+         , bIgnoreData(false)
+         , type(KCompressionDevice::None)
++        , deviceReadPos(0)
+     {
+     }
+     bool bNeedHeader;
+@@ -59,6 +60,7 @@ public:
+     KFilterBase::Result result;
+     KFilterBase *filter;
+     KCompressionDevice::CompressionType type;
++    qint64 deviceReadPos;
+ };
+ 
+ KFilterBase *KCompressionDevice::filterForCompressionType(KCompressionDevice::CompressionType type)
+@@ -174,8 +176,10 @@ void KCompressionDevice::close()
+ 
+ bool KCompressionDevice::seek(qint64 pos)
+ {
+-    qint64 ioIndex = this->pos(); // current position
+-    if (ioIndex == pos) {
++    if (!QIODevice::seek(pos))
++        return false;
++
++    if (d->deviceReadPos == pos) {
+         return true;
+     }
+ 
+@@ -189,13 +193,13 @@ bool KCompressionDevice::seek(qint64 pos)
+         d->result = KFilterBase::Ok;
+         d->filter->setInBuffer(0L, 0);
+         d->filter->reset();
+-        QIODevice::seek(pos);
++        d->deviceReadPos = 0;
+         return d->filter->device()->reset();
+     }
+ 
+     qint64 bytesToRead;
+-    if (ioIndex < pos) { // we can start from here
+-        bytesToRead = pos - ioIndex;
++    if (d->deviceReadPos < pos) { // we can start from here
++        bytesToRead = pos - d->deviceReadPos;
+     } else {
+         // we have to start from 0 ! Ugly and slow, but better than the previous
+         // solution (KTarGz was allocating everything into memory)
+@@ -210,7 +214,6 @@ bool KCompressionDevice::seek(qint64 pos)
+     d->bIgnoreData = true;
+     const bool result = (read(dummy.data(), bytesToRead) == bytesToRead);
+     d->bIgnoreData = false;
+-    QIODevice::seek(pos);
+     return result;
+ }
+ 
+@@ -303,6 +306,7 @@ qint64 KCompressionDevice::readData(char *data, qint64 maxlen)
+         filter->setOutBuffer(data, availOut);
+     }
+ 
++    d->deviceReadPos += dataReceived;
+     return dataReceived;
+ }
+ 

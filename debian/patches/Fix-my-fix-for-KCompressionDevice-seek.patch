@@ -1,0 +1,50 @@
+From: Albert Astals Cid <aacid@kde.org>
+Date: Sun, 5 Feb 2017 01:49:42 +0100
+Subject: Fix my fix for KCompressionDevice::seek
+
+Differential Revision: https://phabricator.kde.org/D4437
+---
+ src/kcompressiondevice.cpp | 15 +++++++++++----
+ 1 file changed, 11 insertions(+), 4 deletions(-)
+
+diff --git a/src/kcompressiondevice.cpp b/src/kcompressiondevice.cpp
+index 04466a6..2b70ae0 100644
+--- a/src/kcompressiondevice.cpp
++++ b/src/kcompressiondevice.cpp
+@@ -176,11 +176,8 @@ void KCompressionDevice::close()
+ 
+ bool KCompressionDevice::seek(qint64 pos)
+ {
+-    if (!QIODevice::seek(pos))
+-        return false;
+-
+     if (d->deviceReadPos == pos) {
+-        return true;
++        return QIODevice::seek(pos);
+     }
+ 
+     //qDebug() << "seek(" << pos << ") called, current pos=" << ioIndex;
+@@ -188,6 +185,9 @@ bool KCompressionDevice::seek(qint64 pos)
+     Q_ASSERT(d->filter->mode() == QIODevice::ReadOnly);
+ 
+     if (pos == 0) {
++        if (!QIODevice::seek(pos))
++            return false;
++
+         // We can forget about the cached data
+         d->bNeedHeader = !d->bSkipHeaders;
+         d->result = KFilterBase::Ok;
+@@ -200,6 +200,13 @@ bool KCompressionDevice::seek(qint64 pos)
+     qint64 bytesToRead;
+     if (d->deviceReadPos < pos) { // we can start from here
+         bytesToRead = pos - d->deviceReadPos;
++        // Since we're going to do a read() below
++        // we need to reset the internal QIODevice pos to the real position we are
++        // so that after read() we are indeed pointing to the pos seek
++        // asked us to be in
++        if (!QIODevice::seek(d->deviceReadPos)) {
++            return false;
++        }
+     } else {
+         // we have to start from 0 ! Ugly and slow, but better than the previous
+         // solution (KTarGz was allocating everything into memory)
