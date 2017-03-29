@@ -1,6 +1,10 @@
 karchive (5.28.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add upstream patches for KCompressionDevice::seek:
+    + Fix-KCompressionDevice-to-work-with-Qt-5.7.patch
+    + Fix-my-fix-for-KCompressionDevice-seek.patch
+  * Backport upstream patch:
+    + Fix-Potential-leak-of-memory-pointed-to-by-limitedDev.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Mar 2017 14:52:51 +0200
 
