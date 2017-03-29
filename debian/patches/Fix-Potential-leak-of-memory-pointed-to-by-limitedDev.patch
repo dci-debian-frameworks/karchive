@@ -1,0 +1,20 @@
+From: Leslie Zhai <xiangzhai83@gmail.com>
+Date: Wed, 1 Mar 2017 16:42:30 +0800
+Subject: Fix Potential leak of memory pointed to by 'limitedDev'.
+
+REVIEW: 129976
+---
+ src/kzip.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/kzip.cpp b/src/kzip.cpp
+index 94d4276..d7216c1 100644
+--- a/src/kzip.cpp
++++ b/src/kzip.cpp
+@@ -1423,5 +1423,6 @@ QIODevice *KZipFileEntry::createDevice() const
+     qCritical() << "This zip file contains files compressed with method"
+                 << encoding() << ", this method is currently not supported by KZip,"
+                 << "please use a command-line tool to handle this file.";
++    delete limitedDev;
+     return 0;
+ }
