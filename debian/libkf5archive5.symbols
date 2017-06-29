@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 alpha arm64 armel hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN10KFilterDev26compressionTypeForMimeTypeERK7QString@Base 4.96.0
  _ZN10KFilterDevC1ERK7QString@Base 4.96.0
@@ -211,6 +211,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZN8KArchive13finishWritingEx@Base 4.96.0
  (optional=gccinternal|arch=!kfreebsd-any)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xjRK9QDateTimeS5_S5_@Base 4.96.0
  (optional=gccinternal|arch=kfreebsd-any)_ZN8KArchive14prepareWritingERK7QStringS2_S2_xtRK9QDateTimeS5_S5_@Base 5.11.0
+ _ZN8KArchive14setErrorStringERK7QString@Base 5.35.0
  _ZN8KArchive17addLocalDirectoryERK7QStringS2_@Base 4.96.0
  _ZN8KArchive4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4.96.0
  _ZN8KArchive5closeEv@Base 4.96.0
@@ -264,6 +265,7 @@ libKF5Archive.so.5 libkf5archive5 #MINVER#
  _ZNK18KCompressionDevice5atEndEv@Base 4.96.0
  _ZNK4KZip10extraFieldEv@Base 4.96.0
  _ZNK4KZip11compressionEv@Base 4.96.0
+ _ZNK8KArchive11errorStringEv@Base 5.35.0
  _ZNK8KArchive4modeEv@Base 4.96.0
  _ZNK8KArchive6deviceEv@Base 4.96.0
  _ZNK8KArchive6isOpenEv@Base 4.96.0
