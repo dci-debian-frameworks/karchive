@@ -1,3 +1,0 @@
-Fix-KCompressionDevice-to-work-with-Qt-5.7.patch
-Fix-my-fix-for-KCompressionDevice-seek.patch
-Fix-Potential-leak-of-memory-pointed-to-by-limitedDev.patch
