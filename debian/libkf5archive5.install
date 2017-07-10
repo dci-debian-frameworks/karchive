@@ -1,2 +1,3 @@
+etc/xdg/karchive.categories
 usr/lib/*/libKF5Archive.so.5
 usr/lib/*/libKF5Archive.so.5.*
