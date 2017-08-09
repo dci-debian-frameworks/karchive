@@ -1,3 +1,15 @@
+karchive (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:10:11 +0000
+
+karchive (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:30:33 +0000
+
 karchive (5.34.0-0neon) xenial; urgency=medium
 
   * New release
@@ -33,6 +45,16 @@ karchive (5.29.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:06:46 +0000
+
+karchive (5.28.0-2) unstable; urgency=medium
+
+  * Add upstream patches for KCompressionDevice::seek:
+    + Fix-KCompressionDevice-to-work-with-Qt-5.7.patch
+    + Fix-my-fix-for-KCompressionDevice-seek.patch
+  * Backport upstream patch:
+    + Fix-Potential-leak-of-memory-pointed-to-by-limitedDev.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Mar 2017 15:09:44 +0200
 
 karchive (5.28.0-1) unstable; urgency=medium
 
