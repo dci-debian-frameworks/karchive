@@ -35,10 +35,10 @@ Description: development files for karchive
  .
  This package contains the development files.
 Breaks: kdoctools-dev (<< 5.28),
-        libkf5doctools-dev (<< 5.36),
-        libkf5emoticons-dev (<< 5.36),
-        libkf5khtml-dev (<< 5.36),
-        libkf5newstuff-dev (<< 5.36)
+        libkf5doctools-dev (<< 5.37),
+        libkf5emoticons-dev (<< 5.37),
+        libkf5khtml-dev (<< 5.37),
+        libkf5newstuff-dev (<< 5.37)
 
 Package: libkf5archive5
 Architecture: any
@@ -52,18 +52,18 @@ Description: Qt 5 addon providing access to numerous types of archives
  GZip format, via a subclass of QIODevice.
  .
  This package is part of KDE Frameworks 5.
-Breaks: kdoctools5 (<< 5.36),
-        kimageformat-plugins (<< 5.36),
-        kio (<< 5.36),
-        kpackagetool5 (<< 5.36),
-        libkf5doctools5 (<< 5.36),
-        libkf5emoticons5 (<< 5.36),
-        libkf5filemetadata-bin (<< 5.36),
-        libkf5iconthemes5 (<< 5.36),
-        libkf5khtml-bin (<< 5.36),
-        libkf5khtml5 (<< 5.36),
-        libkf5newstuff5 (<< 5.36),
-        libkf5newstuffcore5 (<< 5.36),
-        libkf5package5 (<< 5.36),
-        libkf5plasma5 (<< 5.36),
-        libkf5texteditor5 (<< 5.36)
+Breaks: kdoctools5 (<< 5.37),
+        kimageformat-plugins (<< 5.37),
+        kio (<< 5.37),
+        kpackagetool5 (<< 5.37),
+        libkf5doctools5 (<< 5.37),
+        libkf5emoticons5 (<< 5.37),
+        libkf5filemetadata-bin (<< 5.37),
+        libkf5iconthemes5 (<< 5.37),
+        libkf5khtml-bin (<< 5.37),
+        libkf5khtml5 (<< 5.37),
+        libkf5newstuff5 (<< 5.37),
+        libkf5newstuffcore5 (<< 5.37),
+        libkf5package5 (<< 5.37),
+        libkf5plasma5 (<< 5.37),
+        libkf5texteditor5 (<< 5.37)
