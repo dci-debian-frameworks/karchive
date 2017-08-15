@@ -59,6 +59,7 @@ Description: Qt 5 addon providing access to numerous types of archives (document
  This package is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5archive5
 Architecture: any
