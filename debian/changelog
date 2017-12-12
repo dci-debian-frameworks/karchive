@@ -207,7 +207,7 @@ karchive (5.24.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  
+
   [ Maximiliano Curia ]
   * New upstream release.
     -  Fixes: CVE-2016-6232
@@ -292,20 +292,6 @@ karchive (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:38 +0100
 
-karchive (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * Debian merge. No remaining changes. 
-  * Fix debian merge. 
-  * Disable tests, only to move forward with merges.
-    This absolutely must be fixed before going to archive.
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:55:42 +0100
-
 karchive (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -317,14 +303,6 @@ karchive (5.15.0-1) unstable; urgency=medium
   * New upstream release (5.15.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:51 +0200
-
-karchive (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
-
-  * Fix merge madness. 
-  * Batchpatch symbols. Removed missing private symbol. 
-  * Fix the version on the symbols. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Nov 2015 19:04:50 -0800
 
 karchive (5.15.0-0ubuntu2) xenial; urgency=medium
 
@@ -376,7 +354,7 @@ karchive (5.12.0-1) unstable; urgency=medium
 karchive (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:23:57 +0200
 
@@ -385,12 +363,6 @@ karchive (5.11.0-2) unstable; urgency=medium
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 02 Jul 2015 20:38:37 +0200
-
-karchive (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Vivid backport
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:04:15 -0700
 
 karchive (5.11.0-1) unstable; urgency=medium
 
