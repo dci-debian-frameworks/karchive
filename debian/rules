@@ -8,3 +8,5 @@ override_dh_auto_configure:
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='libkf5archive5-dbg (<= 5.19.0-1~~)'
+
+.PHONY: override_dh_auto_test
